@@ -5,6 +5,8 @@
 
 body{
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main {
@@ -13,17 +15,18 @@ main {
   padding: 30px;
 }
 
+.img-thumbnail {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  height: 70px;
+}
+
 .header-trybe {
   display: block;
   text-align: center;
   height: 150px;
   margin-bottom: 50px;
   border-bottom: 1px solid;
-}
-
-.header-trybe img {
-  margin-top: 12px;
-  height: 70px;
 }
 
 .hotel-form {
@@ -38,4 +41,14 @@ main {
   resize: none;
   width: 500px;
   height: 100px;
+}
+
+.nPessoas {
+  width: 200px;
+  margin: auto;
+}
+
+.inputDate {
+  display: block;
+  margin: auto;
 }
